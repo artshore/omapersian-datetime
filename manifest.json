@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "artshore.clock",
+  "name": "Shamsi Clock",
+  "version": "1.0.0",
+  "author": "artshore",
+  "license": "MIT",
+  "homepage": "https://github.com/artshore/omarchy-shamsi-clock",
+  "description": "Shamsi (Jalali) date alongside the Gregorian date, weekday and time for the Omarchy bar.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Shamsi Clock",
+    "description": "Iranian Shamsi (Jalali) date, Gregorian date, weekday and time.",
+    "category": "Time",
+    "aliases": [
+      "shamsi",
+      "jalali",
+      "persian",
+      "iran",
+      "date"
+    ],
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.clock"
+  }
+}
